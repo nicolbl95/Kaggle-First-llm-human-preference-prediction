@@ -33,21 +33,9 @@ L’objectif était de construire un modèle capable d’estimer si un évaluate
 
 ## À propos de la « Version 17 »
 
-Le notebook Kaggle final est nommé `Version 17`, mais cela ne signifie pas que j’ai entraîné et comparé dix-sept versions différentes du modèle.
+Le notebook final est nommé `Version 17`, mais les versions précédentes correspondaient surtout à des corrections techniques du pipeline d’inférence Kaggle, et non à dix-sept modèles différents.
 
-Le modèle soumis est le premier modèle final que je souhaitais réellement évaluer sur le test caché. Les versions précédentes correspondent principalement à des corrections du pipeline d’inférence Kaggle :
-
-- adaptation au test caché ;
-- suppression de dépendances réseau ;
-- chargement local du modèle d’embeddings ;
-- correction de fonctions exportées depuis un ancien notebook ;
-- gestion de la mémoire ;
-- vérification de l’ordre des 143 variables ;
-- création correcte du fichier `submission.csv`.
-
-La Version 17 est donc la première soumission réussie contenant les véritables prédictions du modèle final.
-
-Après avoir obtenu un score de **1,00880** et une position dans le **Top 18,1 %**, j’ai choisi de figer ce résultat. Je n’ai pas poursuivi une optimisation intensive uniquement pour gagner quelques places dans le classement. Mon objectif principal était de mener un premier projet Kaggle complet jusqu’à une soumission reproductible, puis de consacrer mon temps à un nouveau projet différent afin d’élargir mes compétences.
+La Version 17 est la première soumission réussie contenant les véritables prédictions du modèle final. Après avoir obtenu une Log Loss de **1,00880** et une place dans le **Top 18,1 %**, j’ai choisi de figer ce résultat et de passer à un nouveau projet afin d’élargir mes compétences.
 
 ## Problème
 
