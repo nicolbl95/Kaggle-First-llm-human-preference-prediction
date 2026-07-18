@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/badge/Sentence%20Transformers-Semantic%20Embeddings-6C4AB6?style=for-the-badge" alt="Sentence Transformers">
   <img src="https://img.shields.io/badge/LightGBM-Ensemble-2C8C3C?style=for-the-badge" alt="LightGBM">
   <img src="https://img.shields.io/badge/scikit--learn-ML-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn">
-  <img src="https://img.shields.io/badge/Kaggle-Top%2018.1%25-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle">
+  <img src="https://img.shields.io/badge/Kaggle-Top%2018%25-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle">
 </p>
 
 Premier projet Kaggle consacré à la prédiction des préférences humaines entre deux réponses générées par des modèles de langage.
@@ -18,7 +18,7 @@ L’objectif était de construire un modèle capable d’estimer si un évaluate
 
 - Log Loss public : **1,00880**
 - Classement au moment de la capture : **45e sur 248 équipes actives**
-- Position approximative : **Top 18,1 %**
+- Position approximative : **Top 18 %**
 - Résultat enregistré en **juillet 2026**
 
 > Cette compétition utilise un classement glissant sur deux mois. Le rang indiqué correspond aux équipes actives au moment des captures d’écran et peut évoluer à mesure que de nouvelles soumissions apparaissent ou que d’anciennes expirent.
@@ -45,7 +45,7 @@ L’objectif était de construire un modèle capable d’estimer si un évaluate
 
 Le notebook final est nommé `Version 17`, mais les versions précédentes correspondaient surtout à des corrections techniques du pipeline d’inférence Kaggle, et non à dix-sept modèles différents.
 
-La Version 17 est la première soumission réussie contenant les véritables prédictions du modèle final. Après avoir obtenu une Log Loss de **1,00880** et une place dans le **Top 18,1 %**, j’ai choisi de figer ce résultat et de passer à un nouveau projet afin d’élargir mes compétences.
+La Version 17 est la première soumission réussie contenant les véritables prédictions du modèle final. Après avoir obtenu une Log Loss de **1,00880** et une place dans le **Top 18 %**, j’ai choisi de figer ce résultat et de passer à un nouveau projet afin d’élargir mes compétences.
 
 ## Problème
 
