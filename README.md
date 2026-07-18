@@ -7,6 +7,7 @@
   <img src="https://img.shields.io/badge/Sentence%20Transformers-Semantic%20Embeddings-6C4AB6?style=for-the-badge" alt="Sentence Transformers">
   <img src="https://img.shields.io/badge/LightGBM-Ensemble-2C8C3C?style=for-the-badge" alt="LightGBM">
   <img src="https://img.shields.io/badge/scikit--learn-ML-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn">
+  <img src="https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter Notebook">
 </p>
 
 Premier projet Kaggle consacré à la prédiction des préférences humaines entre deux réponses générées par des modèles de langage.
