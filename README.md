@@ -13,6 +13,12 @@ L’objectif était de construire un modèle capable d’estimer si un évaluate
 
 > Cette compétition utilise un classement glissant sur deux mois. Le rang indiqué correspond aux équipes actives au moment des captures d’écran et peut évoluer à mesure que de nouvelles soumissions apparaissent ou que d’anciennes expirent.
 
+## Liens du projet
+
+- [Compétition Kaggle — LLM Classification Finetuning](https://www.kaggle.com/competitions/llm-classification-finetuning)
+- [Notebook Kaggle final — Version 17](https://www.kaggle.com/code/davoine/llm-arena-final-inference)
+- [Profil Kaggle](https://www.kaggle.com/davoine)
+
 ### Résultat de la soumission
 
 ![Soumission réussie](images/submission-score.png)
@@ -180,6 +186,19 @@ Plusieurs problèmes ont été corrigés :
 
 La reconstruction finale des 143 variables a été vérifiée sur le test public avec une différence numérique maximale d’environ `1,8 × 10⁻⁷`, soit une différence négligeable liée aux arrondis en `float32`.
 
+## Technologies utilisées
+
+- Python
+- pandas et NumPy
+- scikit-learn
+- LightGBM
+- Sentence Transformers
+- PyTorch
+- Hugging Face Transformers
+- Jupyter Notebook
+- Kaggle
+- Git et GitHub
+
 ## Structure du dépôt
 
 ```text
@@ -207,7 +226,7 @@ Le dépôt ne contient pas :
 
 Ces fichiers sont exclus pour des raisons de licence, de taille et de reproductibilité.
 
-Pour reproduire le pipeline, il faut récupérer les données depuis Kaggle et fournir localement les artefacts de modèles nécessaires.
+Pour reproduire complètement le pipeline, il faut récupérer les données depuis Kaggle et fournir localement les artefacts de modèles nécessaires. Le notebook Kaggle public permet également de consulter l’environnement et le pipeline utilisés pour la soumission finale.
 
 ## Limites
 
