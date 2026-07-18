@@ -1,0 +1,10 @@
+numpy
+pandas
+scikit-learn
+lightgbm
+joblib
+torch
+transformers
+sentence-transformers
+tqdm
+pyarrow

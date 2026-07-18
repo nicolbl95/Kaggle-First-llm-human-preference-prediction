@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Données et modèles lourds
+*.csv
+*.parquet
+*.joblib
+*.pkl
+*.zip
+*.bin
+*.safetensors
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Système
+.DS_Store
+Thumbs.db
